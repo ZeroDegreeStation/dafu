@@ -1,1 +1,94 @@
-this is my page😀
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <!-- ページの文字コード指定 -->
+    <meta charset="UTF-8">
+    <!-- レスポンシブ対応（スマホ表示調整） -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- ページのタイトル（ブラウザのタブに表示される） -->
+    <title>私のホームページへようこそ</title>
+    
+    <!-- ここにCSSを記述するか、外部CSSファイルを読み込む -->
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #007BFF;
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 10px;
+        }
+        .container {
+            width: 80%;
+            margin: 2rem auto;
+            background-color: white;
+            padding: 1rem;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        footer {
+            text-align: center;
+            padding: 1rem 0;
+            background-color: #333;
+            color: white;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- ヘッダーセクション（ロゴやサイト名、ナビゲーション） -->
+    <header>
+        <h1>私の素晴らしいホームページ</h1>
+        <nav>
+            <ul>
+                <li><a href="#home" style="color: white;">ホーム</a></li>
+                <li><a href="#about" style="color: white;">私たちについて</a></li>
+                <li><a href="#contact" style="color: white;">連絡先</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- メインコンテンツセクション -->
+    <main class="container">
+        <section id="home">
+            <h2>ようこそ！</h2>
+            <p>これはHTMLだけで作成されたシンプルなホームページの例です。ここにあなたのコンテンツが入ります。</p>
+        </section>
+
+        <section id="about">
+            <h2>私たちについて</h2>
+            <p>私たちは最高のサービスを提供します。</p>
+        </section>
+    </main>
+
+    <!-- フッターセクション（著作権情報など） -->
+    <footer>
+        <p>&copy; 2025 私のホームページ. All rights reserved.</p>
+    </footer>
+
+    <!-- ここにJavaScriptを記述するか、外部JSファイルを読み込む -->
+    <script>
+        // 例：ページ読み込み時にアラートを表示するJavaScript
+        // window.onload = function() {
+        //     alert("ホームページが読み込まれました！");
+        // };
+    </script>
+
+</body>
+</html>
+
